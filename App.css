@@ -1,0 +1,40 @@
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+   height: 100vh;
+ flex-direction: column;
+}
+.output{
+  color:white;
+  text-align: right;
+  
+  outline: none;
+  border:none;
+  width:310px;
+  height:70px;
+  font-size: 32px;
+  padding: 5px;
+  background-color:black;
+  border-top-left-radius:6px ;
+  border-top-right-radius: 6px;
+}
+button{
+  font-size: 25px;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  border: none;
+  border-top: 1px solid rgb(146, 141, 141);
+   border-bottom: 1px solid rgb(146, 141, 141);
+   border-right: 1px solid rgb(146, 141, 141);
+}
+  
+.operator{
+  border-right: none;
+  background-color: rgb(226, 121, 46);
+  color: white;
+}
+ .fun-key{
+  background-color: rgb(128, 235, 235);
+ }
